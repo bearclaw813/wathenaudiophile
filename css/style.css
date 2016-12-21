@@ -1,0 +1,115 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav .brand-logo {
+    position:relative;
+}
+
+i{
+    color:#b1b1b1;
+    padding:20px;
+}
+
+/*i.left{
+    color:#b1b1b1;
+    /*padding:20px;*/
+}*/
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+nav{
+    background-color:#1e1e1e;
+    height:100px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+
+ /*Uncomment for fixed sidenav*/
+header, main, footer {
+      /*padding-left: 300px;*/
+    }
+
+header{
+    background-color:#1e1e1e;
+}
+
+    @media only screen and (max-width : 992px) {
+      header, main, footer {
+        padding-left: 0;
+      }
+    }
+
+
+.side-nav{
+    background-color:#1e1e1e;
+}
+
+.side-nav a{
+    color:#b1b1b1;
+}
+
+.side-nav li{
+    color:#b1b1b1;
+}
+
+.side-nav .collapsible-body, .side-nav.fixed .collapsible-body {
+    border: 0;
+    background-color: #1e1e1e;
+    
+}
+
+.side-nav .collapsible, .side-nav.fixed .collapsible{
+    padding-left: 15px;
+}
