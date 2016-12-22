@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="854e35e1-3513-4470-944c-974ed944b203" name="Default" comment="" />
+    <list default="true" id="854e35e1-3513-4470-944c-974ed944b203" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -254,7 +257,7 @@
       <workItem from="1482277040434" duration="529000" />
       <workItem from="1482277966431" duration="591000" />
       <workItem from="1482278570132" duration="1905000" />
-      <workItem from="1482364477022" duration="52000" />
+      <workItem from="1482364477022" duration="253000" />
     </task>
     <task id="LOCAL-00001" summary="Solomon - Add html  boilerplate :)&#10;">
       <created>1481670535836</created>
@@ -274,10 +277,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10106000" />
+    <option name="totallyTimeSpent" value="10307000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1932" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18528184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
