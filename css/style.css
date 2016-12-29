@@ -17,18 +17,25 @@ i{
 
 /*i.left{
     color:#b1b1b1;
-    /*padding:20px;*/
+    padding:20px;
 }*/
 
 nav ul a,
 nav .brand-logo {
   color: #444;
 }
-
-nav{
-    background-color:#1e1e1e;
-    height:100px;
+header{
+    background-color: #1e1e1e;
+    /*padding: 10px 0 10px 0;*/
 }
+nav {
+    color: white !important;
+    box-shadow: none;
+}
+/*nav{*/
+    /*background-color:#1e1e1e;*/
+    /*height:100px;*/
+/*}*/
 
 p {
   line-height: 2rem;
@@ -107,7 +114,7 @@ header{
 .side-nav .collapsible-body, .side-nav.fixed .collapsible-body {
     border: 0;
     background-color: #1e1e1e;
-    
+
 }
 
 .side-nav .collapsible, .side-nav.fixed .collapsible{
