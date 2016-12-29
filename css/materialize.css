@@ -2621,7 +2621,13 @@ a {
 blockquote {
   margin: 20px 0;
   padding-left: 1.5rem;
-  border-left: 5px solid #ee6e73;
+  /*border-left: 5px solid #ee6e73;*/
+}
+
+blockquote-right {
+  margin: 0 20px;
+  padding-right: 1.5rem;
+  /*border-left: 5px solid #ee6e73;*/
 }
 
 i {
@@ -2868,7 +2874,7 @@ ul.staggered-list li {
 footer.page-footer {
   margin-top: 20px;
   padding-top: 20px;
-  background-color: #ee6e73;
+  background-color: #1e1e1e;
 }
 
 footer.page-footer .footer-copyright {
@@ -7703,7 +7709,7 @@ input[type=range]:focus::-ms-fill-upper {
   height: 16px;
   width: 16px;
   margin: 0 12px;
-  background-color: #e0e0e0;
+  background-color: black;
   transition: background-color .3s;
   border-radius: 50%;
 }
