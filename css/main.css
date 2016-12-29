@@ -10,12 +10,42 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+
+
 html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
 }
 
+.carousel{
+    padding-top:300px;
+    padding-bottom:100px;
+}
+
+blockquote{
+        border-left: 5px solid #c4bb6c;
+
+}
+blockquote-right{
+        border-right: 5px solid #c4bb6c;
+
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 40px;
+    -webkit-margin-end: 40px;
+}
+
+
+.carousel .indicators .indicator-item {
+    background-color:black;
+}
+
+.carousel-item{
+
+    padding-top:25px;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
